@@ -1,0 +1,163 @@
+body {
+    margin: 0 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url('https://www.killingthyme.net/wp-content/uploads/2015/10/homemade-ramen-bowls-01.jpg');
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: rgba(25,25,25, 0.85);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.button-group {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-button, .menu-button, .contact-button {
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.home-button:hover, .menu-button:hover, .contact-button:hover {
+    border-bottom: 1px white solid;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 6rem 0;
+    border: 0.5px solid black
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 525px;
+    width: 618px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.homepage p {
+    margin: 1rem;
+}
+
+.profile-pic {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 618px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    color: white;
+}
+
+.menu-item {
+    background-color: rgba(25,25,25,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background-color: gray;
+}
+
+.menu-item img {
+    width: 13rem;
+    height: 10rem;
+}
+
+.menu-item p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+    margin: 0.5rem 0;
+}
+
+.menu-item h2 {
+    margin: 0.5rem 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: 525px;
+    width: 618px;
+    font-size: 1.5rem;
+}
+
+.contact p {
+    margin: 0.5rem 0;
+}
+
+.contact img {
+    margin: 0.5rem 0;
+    width: 38rem;
+    height: 30rem;
+}
+
+.footer {
+    background-color: rgba(25,25,25,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.footer img {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-left: 0.2rem;
+    transition: transform .5s ease-in-out;
+    filter: brightness(0) invert(1);
+}
+
+.footer img:hover {
+    transform: rotate(360deg);
+}
